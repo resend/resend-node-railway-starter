@@ -6,6 +6,9 @@
   "author": "resend",
   "type": "module",
   "license": "MIT",
+  "engines": {
+    "node": ">=22.18.0"
+  },
   "scripts": {
     "dev": "node index.ts"
   },

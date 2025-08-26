@@ -7,7 +7,7 @@ const server = http.createServer(async (req, res) => {
   const { data, error } = await resend.emails.send({
     from: "Acme <onboarding@resend.dev>",
     to: ["delivered@resend.dev"],
-    subject: "Hello World",
+    subject: "Hello from Railway",
     html: "<strong>It works!</strong>",
   });
 
